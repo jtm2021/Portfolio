@@ -1,4 +1,4 @@
-@import url("./styles/jtm-style.css");
+@import url(../styles/jtm-style.css);
 
 html {
   scroll-behavior: smooth;
@@ -10,8 +10,7 @@ body {
 
 .first-part {
   height: 100vh;
-  /* background-image: url(./images/github-mark.svg); */
-  background-image: url(./assets/main-section-images/background-skew.svg);
+  background-image: url(../assets/main-section-images/background-skew.svg);
   background-size: cover;
 }
 
