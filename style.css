@@ -8,6 +8,8 @@ body {
 
 .first-part {
   height: 100vh;
+  background-image: url(./assets/main-section-images/background-skew.svg);
+  background-size: cover;
 }
 
 .my-projects {
