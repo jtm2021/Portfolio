@@ -30,7 +30,11 @@
 }
 
 .text-box h1 {
-    font-size: 3rem;
+    font-size: 45px;
+}
+
+.text-box p {
+    font-size: 30px;
 }
 
 .text-box img {
@@ -43,25 +47,3 @@
     align-items: center;
     gap: 1rem;
 }
-
-/* .profile-container div:first-child {
-    background-image: url(../assets/main-section-images/portrait.jpg);
-    width: 30%;
-    /* height: 80vh; */
-    /* height: 20vh; */
-    /* background-size: cover; */
-    /* border: 1px solid red; */
-/* } */
-
-/* .profile-container p {
-    text-align: center;
-    padding-top: 2rem;
-    font-weight: bold;
-    font-size: 3rem;
-}
-
-.profile-container div:last-child {
-    width: 50%;
-    height: 60vh;
-    border: 1px solid red;
-} */ 

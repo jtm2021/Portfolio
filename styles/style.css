@@ -1,5 +1,4 @@
-@import url("../styles/jtm-style.css");
-@import url("../styles/my-projects.css");
+@import url(../styles/jtm-style.css);
 
 html {
   scroll-behavior: smooth;
