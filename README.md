@@ -20,3 +20,6 @@ The wireframes for this project were created using Figma.
 
 </details>
 
+## Images & Icons
+Icons were downloaded from [Material Design Icons](https://materialdesignicons.com/). Images were downloaded from [Pexels](https://pexels.com)
+
