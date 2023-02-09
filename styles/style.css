@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -39,18 +39,18 @@ img {
   width: 100%;
   display: flex;
   flex-direction: column;
-  word-wrap: break-word;      
-  overflow-wrap: break-word;   
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .card-info > span {
-  margin: 0em .5em;
+  margin: 0em 0.5em;
 }
 
 .card-list {
   display: flex;
   flex-wrap: wrap;
 }
-.mini-logo { 
+.mini-logo {
   width: 20px;
   height: 30px;
 }
@@ -61,7 +61,7 @@ img {
   font-size: 32px;
   text-align: left;
 }
-.cards { 
+.cards {
   margin-left: 10vw;
   margin-right: 10vw;
   flex-wrap: wrap;
@@ -73,7 +73,7 @@ img {
   display: flex;
   margin-bottom: 1.5em;
   margin-right: 2em;
-  flex-direction:  column;
+  flex-direction: column;
   -webkit-box-shadow: 0px 1px 5px 1px #777;
   box-shadow: 1px #7777;
   height: 40vh;
@@ -81,11 +81,10 @@ img {
 }
 
 .info-title {
-  margin: .5em .5em;
+  margin: 0.5em 0.5em;
   display: flex;
   justify-content: space-between;
 }
-
 
 .reveal {
   position: relative;
@@ -94,18 +93,18 @@ img {
   transition: 2s all ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
 
-.card:hover{
-  transform: scale(1.12); 
+.card:hover {
+  transform: scale(1.12);
   -webkit-box-shadow: 0px 1px 5px 1px fuchsia;
   box-shadow: 1px fuchsia;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .work {
     text-align: center;
     margin-left: 0;
@@ -115,7 +114,7 @@ img {
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .cards {
     flex-direction: column;
     /* justify-content: center; */
@@ -134,6 +133,74 @@ img {
     /* border: 1px solid red; */
     /* float: left; */
     /* scale: 120%; */
+  }
 }
-  
+
+.third-part {
+  height: 100vh;
+  background-color: rgb(28, 89, 111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #efe8e8;
+  font-size: 24px;
+  padding: 30px;
+}
+
+.third-part h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.third-part p {
+  margin-bottom: 20px;
+}
+
+/* Path: styles/Olu-style.css */
+
+.contact-icons {
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+.contact-icons img,
+.text-section img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  background-color: transparent;
+}
+
+.contact-image {
+  padding: 20px;
+}
+
+.contact-image img {
+  width: 800px;
+  height: 650px;
+}
+
+.text-section {
+  padding: 20px;
+  min-height: 650px;
+  line-height: 1.4;
+}
+
+.text-section > p > span {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .third-part {
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
 }
