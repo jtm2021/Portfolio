@@ -15,7 +15,7 @@ body {
   height: 100vh;
   background-image: url(../assets/main-section-images/background-skew.svg);
   background-size: cover;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,7 +127,7 @@ img {
   }
 
   .profile-container img {
-    /* width: 30%; */
+    width: 30%;
     /* height: 100vh; */
     /* background-size: cover; */
     /* border: 1px solid red; */
