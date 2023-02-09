@@ -137,14 +137,16 @@ img {
 }
 
 .third-part {
-  height: 100vh;
+  height: 80vh;
+  width: 100%;
   background-color: rgb(28, 89, 111);
   display: flex;
   justify-content: center;
   align-items: center;
   color: #efe8e8;
-  font-size: 24px;
-  padding: 30px;
+  font-size: 16px;
+  padding: 0;
+  margin: auto;
 }
 
 .third-part h1 {
@@ -173,16 +175,18 @@ img {
 
 .contact-image {
   padding: 20px;
+  /* width: 100%;
+  height: 100%; */
 }
 
 .contact-image img {
-  width: 800px;
-  height: 650px;
+  width: 100%;
+  height: 100%;
 }
 
 .text-section {
   padding: 20px;
-  min-height: 650px;
+  min-height: 450px;
   line-height: 1.4;
 }
 
@@ -197,10 +201,63 @@ a {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 500px) {
-  .third-part {
+@media screen and (max-width: 1000px) {
+  /* .third-part {
     flex-direction: column-reverse;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+  } */
+  .contact-image img {
+    width: 450px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .third-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-image img {
+    width: 100%;
+    height: 800px;
+  }
+
+  .contact-image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .phone-div > img,
+  .email-div > img {
+    display: none;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-icons img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    padding: 0;
+  }
+
+  .third-part {
+    padding: 0;
+  }
+
+  .third-part h1 {
+    font-size: 34px;
+    margin: 20px;
+    text-align: center;
   }
 }
