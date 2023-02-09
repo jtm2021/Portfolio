@@ -96,8 +96,8 @@ img {
 
 .card:hover {
   transform: scale(1.12);
-  -webkit-box-shadow: 0px 1px 5px 1px fuchsia;
-  box-shadow: 1px fuchsia;
+  -webkit-box-shadow: 0px 1px 5px 1px #00ffc2;
+  box-shadow: 1px #00ffc2;
 }
 
 @media screen and (max-width:800px) {
