@@ -216,13 +216,13 @@ img {
 
   .profile-description h1 {
     text-align: center;
-    translate: 0px -486px;
+    translate: 0;
     font-size: 40px;
   }
 
   .profile-description h2 {
     text-align: center;
-    padding: 0 20px 20px;
+    padding: 20px;
   }
 
   .profile-description p {
