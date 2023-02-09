@@ -191,6 +191,7 @@ img {
 
 @media screen and (max-width: 675px) {
   .about {
+    background-image: url(../assets/main-section-images/about-background-mobile.png);
     background-size: cover;
     height: 50vh;
   }
