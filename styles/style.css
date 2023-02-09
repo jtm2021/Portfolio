@@ -189,7 +189,7 @@ img {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 675px) {
   .about {
     background-size: cover;
     height: 50vh;
