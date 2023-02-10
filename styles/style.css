@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -164,14 +164,17 @@ img {
 }
 
 .profile-description h1 {
-  translate: -421px -152px;
+  translate: -438px -163px;
   font-size: 50px;
   font-weight: bold;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .profile-description h2 {
   padding: 0 0 20px 471px;
   font-size: 35px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: ;
 }
 
 .profile-description p {
