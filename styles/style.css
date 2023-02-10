@@ -200,6 +200,10 @@ img {
     translate: 0px -120px;
   }
 
+  .profile-description h2 {
+    translate: 0 -24px;
+  }
+
   .profile-description p {
     padding: 0 20px 84px;
   }
@@ -240,6 +244,7 @@ img {
   .profile-description h2 {
     text-align: center;
     padding: 20px;
+    translate: 0;
   }
 
   .profile-description p {
