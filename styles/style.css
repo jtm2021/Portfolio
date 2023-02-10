@@ -54,6 +54,7 @@ img {
   margin-left: 10vw;
   font-size: 32px;
   text-align: left;
+  margin-bottom: 4vh;
 }
 
 .cards {
@@ -62,6 +63,7 @@ img {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .card {
@@ -101,28 +103,6 @@ img {
 }
 
 @media screen and (max-width:800px) {
-  /* body {
-    display: grid;
-    height: 100%;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "about"
-    "my-projects"
-    "third-part";
-  }
-
-  .about {
-    grid-area: about;
-  }
-
-  .my-projects {
-    grid-area: my-projects;
-  }
-
-  .third-part {
-    grid-area: third-part;
-  } */
-
   .work {
     text-align: center;
     margin-left: 0;
@@ -138,8 +118,8 @@ img {
   background-image: url(../assets/main-section-images/about-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
