@@ -1,145 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="./script.js" defer></script>
-  <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
+  <body>
+    <section class="about">
+      <div class="portrait-container">
+        <img
+          src="./assets/main-section-images/portrait-original.jpg"
+          class="main-image"
+          alt=""
+        />
+        <div class="profile-description">
+          <h1>Spencer Lopez</h1>
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm Spencer Lopez. I am a registered law practitioner. I provide
+            services within immigration, healthcare, and business law. I am a
+            graduate of the University of California, Irvine. I can help you
+            with your legal needs. Contact me today! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Dolore ipsam corporis nesciunt maiores
+            laborum natus, placeat, hic aliquid deleniti ab doloremque. Pariatur
+            illo temporibus nihil, autem neque tenetur nisi dignissimos?
+            Quaerat, dolores velit cum minima quibusdam iste aliquam dolore
+            quisquam officiis recusandae, repellendus laborum et ullam atque
+            voluptas reiciendis, iusto quae omnis ipsum. Nam explicabo
+            dignissimos quidem, modi ad dicta.
+          </p>
+          <div class="profile-icons">
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img
+                src="./assets/icons/github.svg"
+                alt="GitHub Icon"
+                width="30px"
+              />
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img
+                src="./assets/icons/linkedin.svg"
+                alt="LinkedIn Icon."
+                width="30px"
+              />
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img
+                src="./assets/icons/twitter.svg"
+                alt="Twitter icon."
+                width="30px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<body>
-  <section class="about">
-    <div class="portrait-container">
-      <img src="./assets/main-section-images/portrait-original.jpg" class="main-image" alt="">
-      <div class="profile-description">
-        <h1>Spencer Lopez</h1>
-        <h2>About Me</h2>
-        <p>Hi! I'm Spencer Lopez. I am a registered law practitioner. I provide services within immigration,
-          healthcare, and business law. I am a graduate of the University of California, Irvine. I can help you
-          with your legal needs. Contact me today! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam
-          corporis nesciunt maiores laborum natus, placeat, hic aliquid deleniti ab doloremque. Pariatur illo temporibus
-          nihil, autem neque tenetur nisi dignissimos?
-          Quaerat, dolores velit cum minima quibusdam iste aliquam dolore quisquam officiis recusandae, repellendus
-          laborum et ullam atque voluptas reiciendis, iusto quae omnis ipsum. Nam explicabo dignissimos quidem, modi ad
-          dicta.
+    <section class="my-projects reveal">
+      <span class="work">My work</span>
+
+      <div class="cards reveal">
+        <div class="card zoom">
+          <img
+            class="info-image"
+            src="./images/kernel.png"
+            alt="ilustration from a board schema"
+          />
+          <div class="card-info">
+            <div class="info-title">
+              <span>Epson drives for linux</span>
+              <div class="info-icons">
+                <img
+                  class="mini-logo"
+                  src="./images/github-mark.svg"
+                  alt="logo github"
+                />
+                <img
+                  class="mini-logo"
+                  src="./images/open-external-link-icon.svg"
+                  alt="icon to redirect"
+                />
+              </div>
+            </div>
+            <span>
+              Implement drives for Daruma printers on linux Kernel 2.6 and and
+              extra layer user inreface KDE wizards.
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="info-image"
+            src="./images/DutchBlitz.png"
+            alt="a print screen from dutchblitz app"
+          />
+          <div class="card-info">
+            <div class="info-title">
+              <span>Dutch Blitz placar</span>
+              <div class="info-icons">
+                <img
+                  class="mini-logo"
+                  src="./images/github-mark.svg"
+                  alt="Wow taste blog"
+                />
+                <img
+                  class="mini-logo"
+                  src="./images/open-external-link-icon.svg"
+                  alt="icon to redirect"
+                />
+              </div>
+            </div>
+            <span>
+              Never struggle again getting scores from your Dutch Blitz game.
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="info-image"
+            src="./images/wowtaste.png"
+            alt="project description"
+          />
+          <div class="card-info">
+            <div class="info-title">
+              <span>Wow taste blog</span>
+              <div class="info-icons">
+                <img
+                  class="mini-logo"
+                  src="./images/github-mark.svg"
+                  alt="logo github"
+                />
+                <img
+                  class="mini-logo"
+                  src="./images/open-external-link-icon.svg"
+                  alt="icon to redirect"
+                />
+              </div>
+            </div>
+            <span>
+              Isso é um texto isso é um texto para o aumento do salario do
+              programador
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="info-image"
+            src="./images/habbits-monitor.png"
+            alt="a print from habbit monitor screen app"
+          />
+          <div class="card-info">
+            <div class="info-title">
+              <span>Habbits monitor</span>
+              <div class="info-icons">
+                <img
+                  class="mini-logo"
+                  src="./images/github-mark.svg"
+                  alt="logo github"
+                />
+                <img
+                  class="mini-logo"
+                  src="./images/open-external-link-icon.svg"
+                  alt="icon to redirect"
+                />
+              </div>
+            </div>
+            <span>
+              Isso é um texto isso é um texto para o aumento do salario do
+              programador
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="info-image"
+            src="./images/schoolmanagment.png"
+            alt="Scool managment logo"
+          />
+          <div class="card-info">
+            <div class="info-title">
+              <span>School managment</span>
+              <div class="info-icons">
+                <img
+                  class="mini-logo"
+                  src="./images/github-mark.svg"
+                  alt="Link to github's project source"
+                />
+                <img
+                  class="mini-logo"
+                  src="./images/open-external-link-icon.svg"
+                  alt="Link to access project's page"
+                />
+              </div>
+            </div>
+            <span> The solution to manage your music scool </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="info-image"
+            src="./images/ppr-simulator.png"
+            alt="project description"
+          />
+          <div class="card-info">
+            <div class="info-title">
+              <span>Caoa employeer Tool</span>
+              <div class="info-icons">
+                <img
+                  class="mini-logo"
+                  src="./images/github-mark.svg"
+                  alt="logo github"
+                />
+                <img
+                  class="mini-logo"
+                  src="./images/open-external-link-icon.svg"
+                  alt="icon to redirect"
+                />
+              </div>
+            </div>
+            <span
+              >Are you a CAOA employee? here you can follow all about your
+              JOB.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="third-part">
+      <div class="text-section">
+        <h1>Contact Me</h1>
+        <p>
+          If you have an idea or a project in mind, let's talk about it. I'm
+          always open to new challenges and opportunities.
         </p>
-        <div class="profile-icons">
-          <a href="https://www.linkedin.com/" target="_blank">
-            <img src="./assets/icons/github.svg" alt="GitHub Icon" width="30px">
-          </a>
-          <a href="https://www.linkedin.com/" target="_blank">
-            <img src="./assets/icons/linkedin.svg" alt="LinkedIn Icon." width="30px">
-          </a>
-          <a href="https://www.linkedin.com/" target="_blank">
-            <img src="./assets/icons/twitter.svg" alt="Twitter icon." width="30px">
-          </a>
-        </div>
+        <p>1234 Random Road <br />Random Town, California, 12345</p>
+        <p class="phone-div">
+          <img
+            src="/assets/icons/contact-section-icon/phone-outline.svg"
+            alt="Phone icon"
+            target="_blank"
+          />
+
+          (123) 456-7890
+        </p>
+        <p class="email-div">
+          <img
+            src="/assets/icons/contact-section-icon/email-outline.svg"
+            alt="email icon"
+            target="_blank"
+          />
+          <a href="mailto:ashleywilliams@gmail.com">ashleywilliams@gmail.com</a>
+        </p>
+        <figure class="contact-icons">
+          <img
+            src="/assets/icons/github.svg"
+            alt="Github-icon"
+            target="_blank"
+          />
+          <img
+            src="/assets/icons/linkedin.svg"
+            alt="LinkedIn-icon"
+            target="_blank"
+          />
+
+          <img
+            src="/assets/icons/twitter.svg"
+            alt="Twitter-icon"
+            target="_blank"
+          />
+        </figure>
       </div>
-    </div>
-  </section>
-
-  <section class="my-projects reveal">
-
-    <span class="work">My work</span>
-
-    <div class="cards reveal">
-
-      <div class="card zoom">
-        <img class="info-image" src="./images/kernel.png" alt="ilustration from a board schema" />
-        <div class="card-info">
-          <div class="info-title">
-            <span>Epson drives for linux</span>
-            <div class="info-icons">
-              <img class="mini-logo" src="./images/github-mark.svg" alt="logo github" />
-              <img class="mini-logo" src="./images/open-external-link-icon.svg" alt="icon to redirect" />
-            </div>
-          </div>
-          <span> Implement drives for Daruma printers on linux Kernel 2.6 and and extra layer user inreface KDE wizards.
-          </span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="info-image" src="./images/DutchBlitz.png" alt="a print screen from dutchblitz app" />
-        <div class="card-info">
-          <div class="info-title">
-            <span>Dutch Blitz placar</span>
-            <div class="info-icons">
-              <img class="mini-logo" src="./images/github-mark.svg" alt="Wow taste blog" />
-              <img class="mini-logo" src="./images/open-external-link-icon.svg" alt="icon to redirect" />
-            </div>
-          </div>
-          <span> Never struggle again getting scores from your Dutch Blitz game. </span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="info-image" src="./images/wowtaste.png" alt="project description" />
-        <div class="card-info">
-          <div class="info-title">
-            <span>Wow taste blog</span>
-            <div class="info-icons">
-              <img class="mini-logo" src="./images/github-mark.svg" alt="logo github" />
-              <img class="mini-logo" src="./images/open-external-link-icon.svg" alt="icon to redirect" />
-            </div>
-          </div>
-          <span> Isso é um texto isso é um texto para o aumento do salario do programador </span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="info-image" src="./images/habbits-monitor.png" alt="a print from habbit monitor screen app" />
-        <div class="card-info">
-          <div class="info-title">
-            <span>Habbits monitor</span>
-            <div class="info-icons">
-              <img class="mini-logo" src="./images/github-mark.svg" alt="logo github" />
-              <img class="mini-logo" src="./images/open-external-link-icon.svg" alt="icon to redirect" />
-            </div>
-          </div>
-          <span> Isso é um texto isso é um texto para o aumento do salario do programador </span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="info-image" src="./images/schoolmanagment.png" alt="Scool managment logo" />
-        <div class="card-info">
-          <div class="info-title">
-            <span>School managment</span>
-            <div class="info-icons">
-              <img class="mini-logo" src="./images/github-mark.svg" alt="Link to github's project source" />
-              <img class="mini-logo" src="./images/open-external-link-icon.svg" alt="Link to access project's page" />
-            </div>
-          </div>
-          <span> The solution to manage your music scool </span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="info-image" src="./images/ppr-simulator.png" alt="project description" />
-        <div class="card-info">
-          <div class="info-title">
-            <span>Caoa employeer Tool</span>
-            <div class="info-icons">
-              <img class="mini-logo" src="./images/github-mark.svg" alt="logo github" />
-              <img class="mini-logo" src="./images/open-external-link-icon.svg" alt="icon to redirect" />
-            </div>
-          </div>
-          <span>Are you a CAOA employee? here you can follow all about your JOB.</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="third-part">
-    ola de novo
-  </section>
-</body>
-
+      <figure class="contact-image">
+        <img
+          src="/assets/contact-section-images/man_using_laptop.jpg"
+          alt="Man Using Laptop"
+        />
+      </figure>
+    </section>
+  </body>
 </html>
