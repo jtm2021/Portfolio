@@ -1,4 +1,4 @@
-@import url(../styles/jtm-style.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -54,6 +54,7 @@ img {
   margin-left: 10vw;
   font-size: 32px;
   text-align: left;
+  margin-bottom: 4vh;
 }
 
 .cards {
@@ -62,6 +63,7 @@ img {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .card {
@@ -115,8 +117,8 @@ img {
   background-image: url(../assets/main-section-images/about-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,18 +143,22 @@ img {
 }
 
 .profile-description h1 {
-  translate: -421px -152px;
+  translate: -438px -163px;
   font-size: 50px;
   font-weight: bold;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .profile-description h2 {
   padding: 0 0 20px 471px;
   font-size: 35px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .profile-description p {
   padding-right: 20px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .profile-icons {
@@ -188,7 +194,21 @@ img {
   }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 920px) {
+  .profile-description h1 {
+    translate: 0px -120px;
+  }
+
+  .profile-description h2 {
+    translate: 0 -24px;
+  }
+
+  .profile-description p {
+    padding: 0 20px 84px;
+  }
+}
+
+@media screen and (max-width: 710px) {
   .about {
     background-image: url(../assets/main-section-images/about-background-mobile.png);
     background-size: cover;
@@ -223,6 +243,7 @@ img {
   .profile-description h2 {
     text-align: center;
     padding: 20px;
+    translate: 0;
   }
 
   .profile-description p {
@@ -233,6 +254,10 @@ img {
     display: flex;
     justify-content: center;
     padding: 20px;
+  }
+
+  .profile-icons img {
+    width: 50px;
   }
 }
 
