@@ -101,6 +101,28 @@ img {
 }
 
 @media screen and (max-width:800px) {
+  body {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "about"
+    "my-projects"
+    "third-part";
+  }
+
+  .about {
+    grid-area: about;
+  }
+
+  .my-projects {
+    grid-area: my-projects;
+  }
+
+  .third-part {
+    grid-area: third-part;
+  }
+
   .work {
     text-align: center;
     margin-left: 0;
@@ -163,6 +185,29 @@ img {
 
 .profile-icons a {
   text-decoration: none;
+}
+
+/*LAST SECTION */
+.third-part {
+  background-color: #00ffc2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-part-container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.contact-details {
+  border: 1px solid red;
+}
+
+.contact-picture {
+  width: 350px;
 }
 
 @media screen and (max-width: 1200px) {

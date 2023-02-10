@@ -1,6 +1,8 @@
 # Portfolio
 A basic portfolio page for a fictitious person. It is a part of the Advanced Front-End Training Program at Brainnest. This project showcases collaborative work using CSS Grid, Flexbox, ARIA, etc..
 
+![Mockup Screenshot](./assets/readme-images/mockup-screenshot.png "Mockup Screenshot")
+
 ## Wireframes
 The wireframes for this project were created using Figma.
 <details><summary>Click To See Desktop Wireframe</summary>
