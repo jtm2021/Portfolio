@@ -178,6 +178,8 @@ img {
 
 .profile-description p {
   padding-right: 20px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .profile-icons {
