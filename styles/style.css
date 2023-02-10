@@ -174,7 +174,6 @@ img {
   padding: 0 0 20px 471px;
   font-size: 35px;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  font-weight: ;
 }
 
 .profile-description p {
@@ -214,7 +213,17 @@ img {
   }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 920px) {
+  .profile-description h1 {
+    translate: 0px -120px;
+  }
+
+  .profile-description p {
+    padding: 0 20px 84px;
+  }
+}
+
+@media screen and (max-width: 710px) {
   .about {
     background-image: url(../assets/main-section-images/about-background-mobile.png);
     background-size: cover;
