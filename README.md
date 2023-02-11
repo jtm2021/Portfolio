@@ -22,6 +22,13 @@ The wireframes for this project were created using Figma.
 
 </details>
 
+## Typography
+This project used an external font from [Google Fonts](https://fonts.google.com/). The font used is [Montserrat](https://fonts.google.com/specimen/Montserrat).
+
+## Color Scheme
+The color scheme used in this project was created using [Coolors](https://coolors.co/). The colors used are:
+![Color Scheme](./assets/readme-images/colors.png "Color Scheme")
+
 ## Images & Icons
 Icons were downloaded from [Material Design Icons](https://materialdesignicons.com/). Images were downloaded from [Pexels](https://pexels.com) and various sources.
 
