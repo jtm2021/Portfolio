@@ -61,7 +61,7 @@ Here are the links:
             <img src="https://ca.slack-edge.com/T04LUQMC622-U04ME298F4Z-0d589aec43d2-512" width="80" height="80" alt="Github profile icon" />
         </td>
         <td>
-            <a href="https://github.com/jtm2021?tab=repositories" target="_blank">Jesson Mangilisan</a>
+            <a href="https://github.com/jtm2021" target="_blank">Jesson Mangilisan</a>
         </td>
     </tr>
     <tr>
