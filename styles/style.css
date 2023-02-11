@@ -262,7 +262,6 @@ img {
 @media screen and (max-width: 500px) {
   .cards {
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
   }
 
