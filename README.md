@@ -44,3 +44,32 @@ Here are the links:
 - Wow taste: [github](https://jtm2021.github.io/wowtaste/)
 - Titan digital [github](https://jtm2021.github.io/Titan/)
 - Scool managment [github](https://github.com/Gbemi06/School-Management)
+
+## Contributors
+
+<table>
+    <tr>
+        <td>
+            <img src="https://ca.slack-edge.com/T04LUQMC622-U04MR427V0Q-gd46cac12492-512" width="80" height="80" alt="Github profile icon" />
+        </td>
+        <td>
+            <a href="https://github.com/walterfcarvalho"  target="_blank">Walter Carvalho</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://ca.slack-edge.com/T04LUQMC622-U04ME298F4Z-0d589aec43d2-512" width="80" height="80" alt="Github profile icon" />
+        </td>
+        <td>
+            <a href="https://github.com/jtm2021?tab=repositories" target="_blank">Jesson Mangilisan</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://ca.slack-edge.com/T04LUQMC622-U04M1D42CPL-g68cc0c26b48-512" width="80" height="80" alt="Github profile icon" />
+        </td>
+        <td>
+            <a href="https://github.com/Gbemi06" target="_blank">Oluwagbemi Oluwasakin</a>
+        </td>
+    </tr>
+</table>
