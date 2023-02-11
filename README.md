@@ -3,8 +3,8 @@ A basic portfolio page for a fictitious person. It is a part of the Advanced Fro
 
 ![Mockup Screenshot](./assets/readme-images/mockup-screenshot.png "Mockup Screenshot")
 
-The deployed site can be found [here](https://jtm2021.github.io/Portfolio/).
-The repository can be found [here](https://github.com/jtm2021/Portfolio).
+- The deployed site can be found [here](https://jtm2021.github.io/Portfolio/).
+- The repository can be found [here](https://github.com/jtm2021/Portfolio).
 
 ## Wireframes
 The wireframes for this project were created using Figma.
