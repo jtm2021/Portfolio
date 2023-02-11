@@ -117,8 +117,6 @@ img {
   background-image: url(../assets/main-section-images/about-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 100vw;
-  height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -355,7 +353,7 @@ a {
 
   .third-part {
     margin-top: 490px;
-    height: 80vh;
+    height: 50vh;
   }
 
   .text-section {
@@ -366,9 +364,9 @@ a {
 @media screen and (max-width: 500px) {
   .third-part {
     flex-direction: column;
-    margin-top: 1950px;
+    margin-top: 2020px;
     padding: 0;
-    height: 100vh;
+    height: 67vh;
   }
   .contact-image img {
     width: 100%;
@@ -411,5 +409,20 @@ a {
     font-size: 24px;
     margin: 10px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .main-image {
+    margin-top: 323px;
+  }
+
+  .my-projects {
+    margin-top: 225px;
+  }
+
+  .third-part {
+    height: 83vh;
+    margin-top: 1640px;
   }
 }
