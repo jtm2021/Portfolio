@@ -66,7 +66,7 @@ Here are the links:
     </tr>
     <tr>
         <td>
-            <img src="https://ca.slack-edge.com/T04LUQMC622-U04M1D42CPL-g68cc0c26b48-512" width="80" height="80" alt="Github profile icon" />
+            <img src="https://ca.slack-edge.com/T04LUQMC622-U04M1D42CPL-dea118c336de-512" width="80" height="80" alt="Github profile icon" />
         </td>
         <td>
             <a href="https://github.com/Gbemi06" target="_blank">Oluwagbemi Oluwasakin</a>
