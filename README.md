@@ -1,5 +1,5 @@
 # Portfolio
-A basic portfolio page for a fictitious person. It is a part of the Advanced Front-End Training Program at Brainnest. This project showcases collaborative work using CSS Grid, Flexbox, ARIA, etc..
+A basic portfolio page for a fictitious person. It is a part of the Advanced Front-End Training Program at Brainnest. This project showcases collaborative work using CSS Grid, Flexbox, CSS functions, etc..
 
 ![Mockup Screenshot](./assets/readme-images/mockup-screenshot.png "Mockup Screenshot")
 
@@ -23,12 +23,14 @@ The wireframes for this project were created using Figma.
 </details>
 
 ## Images & Icons
-Icons were downloaded from [Material Design Icons](https://materialdesignicons.com/). Images were downloaded from [Pexels](https://pexels.com)
+Icons were downloaded from [Material Design Icons](https://materialdesignicons.com/). Images were downloaded from [Pexels](https://pexels.com) and various sources.
 
-Projects images: 
-Kernel: [infoq](https://res.infoq.com/presentations/facebook-google-bpf-linux-kernel/en/slides/sl1-1586362917749.jpg)
-DutchBlitz placar: [vercel](https://react-placar-dutch-blitz-3s7gohu3k-walterfcarvalho.vercel.app/)
-PPR Tool [Vercel](https://simuladorppr.vercel.app/)
-Wow taste: [github](https://jtm2021.github.io/wowtaste/)
-Titan digital [github](https://jtm2021.github.io/Titan/)
-Scool managment [github] (https://github.com/Gbemi06/School-Management)
+Here are the links:
+- Main Profile Picture: [Pexels](https://www.pexels.com/photo/a-businessman-wearing-white-long-sleeves-6592361/)
+- Contact Section Picture: [Pexels](https://www.pexels.com/photo/a-man-in-white-long-sleeves-using-a-laptop-6592661/)
+- Kernel: [infoq](https://res.infoq.com/presentations/facebook-google-bpf-linux-kernel/en/slides/sl1-1586362917749.jpg)
+- DutchBlitz placar: [vercel](https://react-placar-dutch-blitz-3s7gohu3k-walterfcarvalho.vercel.app/)
+- PPR Tool [Vercel](https://simuladorppr.vercel.app/)
+- Wow taste: [github](https://jtm2021.github.io/wowtaste/)
+- Titan digital [github](https://jtm2021.github.io/Titan/)
+- Scool managment [github](https://github.com/Gbemi06/School-Management)
