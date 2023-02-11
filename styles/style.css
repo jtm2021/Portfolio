@@ -284,6 +284,7 @@ img {
   color: #000;
   font-size: 16px;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .third-part h1 {
@@ -317,19 +318,23 @@ img {
 
 .contact-image {
   padding: 20px;
-  min-height: 400px;
+  max-height: 350px;
+  padding-bottom: 0px;
 }
 
 .contact-image img {
   width: 100%;
-  min-height: 100%;
-  max-height: 600px;
+  min-height: 300px;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: 30%;
 }
 
 .text-section {
   padding: 20px;
-  min-height: 400px;
+  min-height: 350px;
   line-height: 1.4;
+  padding-bottom: 0px;
 }
 
 a {
@@ -349,7 +354,8 @@ a {
   }
 
   .third-part {
-    margin-top: 430px;
+    margin-top: 490px;
+    height: 80vh;
   }
 
   .text-section {
@@ -360,21 +366,21 @@ a {
 @media screen and (max-width: 500px) {
   .third-part {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 1950px;
+    padding: 0;
+    height: 100vh;
   }
   .contact-image img {
     width: 100%;
     min-width: 180px;
-    height: 490px;
-    object-fit: cover;
+    height: 420px;
   }
 
   .contact-image {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: 70px;
+    margin-top: 15px;
   }
 
   .phone-div > img,
@@ -383,7 +389,7 @@ a {
   }
 
   .text-section {
-    min-height: 230px;
+    min-height: 300px;
   }
 
   .contact-icons {
@@ -391,7 +397,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .contact-icons img {
@@ -399,12 +405,6 @@ a {
     height: 30px;
     margin: 10px;
     padding: 0;
-  }
-
-  .third-part {
-    margin-top: 1750px;
-    padding: 0;
-    height: 90vh;
   }
 
   .third-part h1 {
